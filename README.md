@@ -4,6 +4,8 @@ This instagram bot lets you post instagram photos right from your computer (Wind
 
 ## Installation
 
+First activate your virtualenv and then:
+
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install packages.
 
 ```bash
