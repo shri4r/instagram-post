@@ -6,14 +6,14 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 username = "Enter your username or email" #Enter your username
 password = "Enter your password" #Enter your password
-image_path = r"Desktop\Selenium and BS projects\Capture.PNG" #The written path is just an example, Delete the path and Enter the Path of your image. #1. path should not start with a back slash
+image_path = r"Desktop\test.jpg" #The written path is just an example, Delete the path and Enter the Path of your image. #1. path should not start with a back slash
 caption = "Enter photo caption here" #Enter the caption 
 
 mobile_emulation = { "deviceName": "Pixel 2" }
 opts = webdriver.ChromeOptions()
 opts.add_experimental_option("mobileEmulation", mobile_emulation)
 
-driver = webdriver.Chrome(executable_path="The path to your web driver",options=opts) #you must enter the path to your driver
+driver = webdriver.Chrome(executable_path=r"The path to your web driver",options=opts) #you must enter the path to your driver
 
 main_url = "https://www.instagram.com"
 driver.get(main_url)
